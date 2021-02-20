@@ -94,7 +94,7 @@ module.exports = function(grunt) {
     compress: {
       main: {
         options: {
-          archive: `dist/${require('./package.json').name}.zip`,
+          archive: `dist/${require('./package.json').name}_modified.zip`,
           level: 9
         },
         files: [{
